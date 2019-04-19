@@ -83,9 +83,7 @@ footer {
     background-color: darkslategrey;
     color: white;
     text-align: center;
-    border-top-color: teal;
-    border-top: 5px;
-    border-top-style: solid;
+    box-shadow: 0 -5px mediumturquoise;
 }
 
 .footer {
