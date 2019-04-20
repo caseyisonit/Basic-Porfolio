@@ -9,23 +9,10 @@
     width: 960px;
 }
 
-.content-box {
-    background: white;
-    margin-top: 30px;
-    margin-bottom: 140px;
-    padding: 30px;
-}
-
-#profile-pic {
-    width: 245px;
-    float: left;
-    margin: 0 30px 20px 0;
-}
-
 body {
     background: #eee;
     background-image: url("../images/floor-tile.png");
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* navigation css */
@@ -34,6 +21,16 @@ body {
     box-shadow: 0 1px 10px rgba(0, 0, 0, .15);
     position: relative;
     width: 100%;
+}
+
+h1 {
+    color: white;
+    background: teal;
+    float: left;
+    font-size: 36px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    padding: 30px;
 }
 
 .main-menu {
@@ -60,21 +57,27 @@ ul {
 }
 /* end navigation css */
 
-h1 {
-    font-size: 30px;
-    color: white;
-    background: teal;
-    text-align: center;
+/* homepage/about content css */
+.content-box {
+    background: white;
+    margin-top: 30px;
+    margin-bottom: 140px;
     padding: 30px;
+}
+
+#profile-pic {
+    width: 245px;
     float: left;
+    margin: 0 30px 20px 0;
 }
 
 h2 {
-    font-size: 24px;
     color: teal;
-    padding-bottom: 30px;
     border-bottom:  1px solid #ccc;
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
     margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 p {
@@ -82,16 +85,18 @@ p {
     line-height: 22px;
     padding-bottom: 15px;
 }
+/* end homepage/about content css */
 
+/* footer css */
 footer {
-    position: fixed;
-    left: 0;
     bottom: 0;
     background-color: darkslategrey;
     box-shadow: 0 -5px mediumturquoise;
     color: white;
+    left: 0;
     margin-top: 50px;
     text-align: center;
+    position: fixed;
     width: 100%;
 }
 
