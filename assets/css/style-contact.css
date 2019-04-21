@@ -3,10 +3,19 @@ form {
     font-size: 16px;
 }
 
-label {
-    /* margin-top: 10px; */
-    color: #666;
+input[type=submit] {
+    background-color: teal;
+    border: none;
+    border-radius: 0;
+    color: white;
+    padding: 10px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: unset;
+}
 
+label {
+    color: #666;
 }
 
 textarea, 
@@ -18,20 +27,9 @@ input {
     border: 1px solid #eee;
     background-color: white;
     font-size: 16px;
-  }
+}
 
-  textarea {
+textarea {
     height: 150px;
-    /* resize: none; */
-  }
+}
 
- input[type=submit] {
-    background-color: teal;
-    border: none;
-    border-radius: 0;
-    color: white;
-    padding: 10px 32px;
-    margin: 4px 2px;
-    cursor: pointer;
-    width: unset;
-  }
